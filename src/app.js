@@ -32,11 +32,11 @@ function changeSymbols() {
   switch (symbol) {
     case "♦":
     case "♥":
-      document.querySelector(".card").classList.add("text-danger");
+      document.querySelector(".card").className = "card p-0 text-danger";
       break;
     case "♠":
     case "♣":
-      document.querySelector(".card").classList.add("text-dark");
+      document.querySelector(".card").className = "card p-0 text-dark";
       break;
   }
 }
