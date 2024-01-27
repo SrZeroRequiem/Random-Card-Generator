@@ -43,6 +43,9 @@ function changeSymbols() {
 function changeNumber() {
   let number = randomNumber(13);
   switch (number) {
+    case 1:
+      number = "A";
+      break;
     case 11:
       number = "J";
       break;
