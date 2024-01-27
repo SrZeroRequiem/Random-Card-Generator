@@ -59,9 +59,7 @@ function changeNumber() {
 }
 function changeWidthHeight() {
   let widthCard = document.getElementById("width").value + "px";
-  console.log(widthCard);
   let heightCard = document.getElementById("height").value + "px";
-  console.log(heightCard);
   document.querySelector(".card").style.width = widthCard;
   document.querySelector(".card").style.height = heightCard;
 }
