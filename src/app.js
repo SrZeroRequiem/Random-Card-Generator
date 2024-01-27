@@ -11,6 +11,7 @@ window.onload = function() {
   renderBtn.addEventListener("click", function() {
     renderOnClick();
   });
+  setInterval(renderOnLoad(), 10000);
 };
 function randomNumber(length) {
   let number = Math.floor(Math.random() * length);
